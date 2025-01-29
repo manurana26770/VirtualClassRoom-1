@@ -8,7 +8,7 @@ const authTokenHandler = require('../middlewares/checkAuthToken');
 const router = express.Router();
 const nodemailer = require('nodemailer');
 
-const {storage} = require("../cloudConfig.js");
+
 const path = require('path');
 
 const app = express();
