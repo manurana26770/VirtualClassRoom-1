@@ -7,13 +7,12 @@ const responseFunction = require('../utils/responseFunction');
 const authTokenHandler = require('../middlewares/checkAuthToken');
 const router = express.Router();
 const nodemailer = require('nodemailer');
-const multer = require('multer');
+
 const {storage} = require("../cloudConfig.js");
 const path = require('path');
 
 const app = express();
-const cloudinary = require('cloudinary').v2;
-const upload = multer({ dest: 'uploads/' });
+
 
 
 
