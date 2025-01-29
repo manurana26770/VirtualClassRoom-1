@@ -7,7 +7,7 @@ const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 dotenv.config();
 const router = express.Router();
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcryptjs");
 const jwt = require('jsonwebtoken');
 const authTokenHandler = require('../middlewares/checkAuthToken');
 
