@@ -3,7 +3,7 @@ const app = express()
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
-
+const bcrypt = require('bcryptjs');
 const dotenv = require('dotenv');
 dotenv.config();
 
